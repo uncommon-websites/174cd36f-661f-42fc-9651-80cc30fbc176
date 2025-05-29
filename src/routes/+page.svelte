@@ -7,16 +7,49 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Right tech. Right time. Every time."
+  subtitle="Probook helps busy home service companies assign the best tech to every job—faster, smarter, and without the guesswork."
+  customers={[
+    {
+      name: "Dani Dascher",
+      position: "HVAC dispatcher",
+      imageSrc: "/generated/image-a-friendly-female-hvac-dispatcher-in-an-.webp"
+    },
+    {
+      name: "Chris Holleran",
+      position: "Plumbing company manager",
+      imageSrc: "/generated/image-a-confident-male-manager-of-a-plumbing-c.webp"
+    },
+    {
+      name: "Monica Ramos",
+      position: "Electrical dispatcher",
+      imageSrc: "/generated/image-a-happy-female-dispatcher-for-an-electri.webp"
+    },
+    {
+      name: "Ryan Laske",
+      position: "HVAC technician",
+      imageSrc: "/generated/image-a-reliable-male-hvac-technician-wearing-.webp"
+    },
+    {
+      name: "Andrea Williams",
+      position: "Plumbing dispatcher",
+      imageSrc: "/generated/image-a-cheerful-female-dispatcher-for-a-plumb.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+  label="Trusted by leading home service companies"
+  logoUrls={[
+    'https://logo.clearbit.com/ars.com',
+    'https://logo.clearbit.com/apollohome.com',
+    'https://logo.clearbit.com/tdindustries.com'
+  ]}
+/>
 
 <Summary
 	generating
