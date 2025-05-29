@@ -35,139 +35,146 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Precision dispatching. Real revenue growth.",
+		subtitle = "Probook is the AI dispatching software built for home services companies. Assign smarter, run tighter routes, and boost close rates.",
+		tierNames = ["Essentials", "Growth", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Technicians included",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Essentials: "Up to 8",
+					Growth: "Up to 25",
+					Enterprise: "25+"
+				}
+			},
+			{
+				name: "Dispatchers included",
+				tiers: {
+					Essentials: "1",
+					Growth: "3",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Assignment engine",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Essentials: "Copilot",
+					Growth: "Copilot + Autopilot",
+					Enterprise: "Copilot + Autopilot + custom logic"
 				}
 			},
 			{
-				name: "Storage",
+				name: "ServiceTitan integration",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Essentials: "Live sync, 2-way booking",
+					Growth: "Live sync, 2-way booking",
+					Enterprise: "Advanced workflows + custom mapping"
 				}
 			},
 			{
-				name: "API access",
+				name: "Dispatch analytics",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Essentials: "Technician utilization",
+					Growth: "Flip rates, sales ranking, zones",
+					Enterprise: "All metrics + custom reports"
+				}
+			},
+			{
+				name: "Customer service automations",
+				tiers: {
+					Essentials: "Proactive late alerts",
+					Growth: "Late alerts + smart rescheduling",
+					Enterprise: "Advanced queues, high-volume support"
+				}
+			},
+			{
+				name: "Support response time (median)",
+				tiers: {
+					Essentials: "8 minutes",
+					Growth: "3 minutes",
+					Enterprise: "Dedicated manager, SLA-backed"
+				}
+			},
+			{
+				name: "Onboarding",
+				tiers: {
+					Essentials: "Remote kickoff + 1:1 setup",
+					Growth: "2-day in-person with founder",
+					Enterprise: "Full rollout, onsite, multi-location support"
+				}
+			},
+			{
+				name: "Nexstar partnership",
+				tiers: {
+					Essentials: true,
+					Growth: true,
 					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
 				}
 			}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Essentials",
+			monthlyPrice: 399,
+			yearlyPrice: 3990,
+			description: "For small teams getting serious about dispatching. Cut guesswork, assign better, and run like a bigger shop—with just one dispatcher.",
+			features: [
+				"Copilot: AI-generated tech recommendations",
+				"Up to 8 technicians, 1 dispatcher",
+				"Full ServiceTitan integration (real-time synced board)",
+				"Proactive late alerts",
+				"Technician performance tracking",
+				"Remote onboarding assistance",
+				"Nexstar member integration and support",
+				"Email + chat support (8-min avg response)"
+			],
+			cta: {
+				label: "Book a demo",
+				href: "/demo"
 			}
-		]
+		},
+		{
+			name: "Growth",
+			monthlyPrice: 999,
+			yearlyPrice: 9990,
+			description: "Best for companies ready to scale fast. Grow your revenue without expanding your headcount—thanks to Autopilot and best-in-class analytics.",
+			features: [
+				"Copilot + Autopilot: full AI dispatch and board reshuffling",
+				"Up to 25 technicians, 3 dispatchers",
+				"Flip rate insights, geo-matching, and sales tracking",
+				"Proactive reschedule recommendations",
+				"Advanced board configuration with service zones",
+				"2 full days of in-person launch with our CEO",
+				"3-min average support response, 25-min resolution",
+				"Official ServiceTitan and Nexstar support"
+			],
+			cta: {
+				label: "Book a demo",
+				href: "/demo"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Dispatching at scale, no compromises. Full automation, advanced service logic, white-glove install, and a support team that actually answers the phone.",
+			features: [
+				"Copilot + Autopilot with full customization",
+				"Unlimited technicians and dispatchers",
+				"Custom decision logic for dispatching and rebalance triggers",
+				"Multi-location and enterprise reporting",
+				"Dedicated customer success manager",
+				"Real-time concierge support with guaranteed SLA",
+				"Custom Probook-ServiceTitan workflows included",
+				"Full in-person rollout and training support"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

@@ -15,35 +15,51 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Isabella Martinez",
+      position: "Operations Manager",
+      company: "Blue Skies HVAC",
+      quote:
+        "Probook paid for itself in the first month. Scheduling is easier, our close rate is up, and dispatchers feel confident taking on more techs.",
+      image: "/generated/image-a-professional-headshot-of-a-hispanic-wo.webp"
+    },
+    {
+      name: "Darius Carter",
+      position: "Dispatch Lead",
+      company: "Precision Plumbing Group",
+      quote:
+        "We saw a clear jump in sold work—Probook's AI matches techs to the right jobs. Rollout was fast and even the least tech-savvy dispatcher picked it up fast.",
+      image: "/generated/image-a-professional-headshot-of-a-black-man-i.webp"
+    },
+    {
+      name: "Lina Chen",
+      position: "Service Director",
+      company: "Family First Electrical",
+      quote:
+        "Probook made us more profitable right away. The onboarding was personal, and their support is super fast—I've never waited more than five minutes for help.",
+      image: "/generated/image-a-professional-headshot-of-an-asian-woma.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+
+<CallToAction
+  title="Smarter dispatching. Higher revenue. Happier teams."
+  subtitle="AI dispatching software built by dispatchers"
+  description="Probook helps HVAC, plumbing, and electrical companies assign the right tech to the right call—automatically. Boost flip rate, support your team, and grow your business without adding headcount. Two-day launch on-site with our CEO. 3-minute median support response. Trusted by ServiceTitan and Nexstar leaders."
+  imageSrc="/generated/image-a-cheerful-home-services-dispatcher-is-s.webp"
+  callsToAction={[
+    {
+      href: '/demo',
+      label: 'Start demo',
+      variant: 'primary'
+    },
+    {
+      href: '/contact',
+      label: 'Talk to our founder',
+      variant: 'secondary'
+    }
+  ]}
+/>
+

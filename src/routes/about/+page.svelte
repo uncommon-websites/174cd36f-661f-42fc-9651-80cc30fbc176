@@ -10,34 +10,41 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Built by dispatchers, for dispatchers",
+    description: "Every workflow is shaped by real dispatchers and service teams. We design with your board and your stress in mind."
+  },
+  {
+    title: "Measurable results—always",
+    description: "We track everything. If it doesn’t drive sales, efficiency, or customer satisfaction, it doesn’t stay."
+  },
+  {
+    title: "Every customer matters",
+    description: "Support is direct, personal, and fast—every time. Most answers in 3 minutes or less, with 100% post-resolution satisfaction."
+  },
+  {
+    title: "Move fast, support each other",
+    description: "We build quickly, respond quickly, and always help our customers and teammates win."
+  },
+  {
+    title: "Always personal, never generic",
+    description: "From onboarding to daily use, you work with our real team—often our CEO. We care about your numbers as much as you do."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="AI dispatching for home services"
+	subtitle="Smarter assignments. Better performance."
+	imageSrc="/mockups/airport-screen-1748549410322.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Probook was created by dispatchers who saw firsthand how stressful and unpredictable managing service calls could be. Too often, the right tech didn't get sent to the right call, and sales—and customers—suffered. We started Probook to fix this for good.",
+		"We built Probook to make dispatching both easier and smarter. It uses real-time AI to recommend or automatically assign technicians, so companies boost sales, improve efficiency, and keep service levels high. Everything fits right into ServiceTitan, and our hands-on approach means owners and dispatchers get personal support from day one.",
+		"Our mission is simple: help home services teams get better results with less stress. We back it up with industry partnerships, lightning-fast support, and onboarding led by our founder. Today, Probook clients see higher revenue, happier customers, and more confident dispatchers on every shift."
 	]}
 />
 
@@ -46,57 +53,29 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our founder."
+  subtitle="Hands-on leadership. Real results."
+  stakeholders={[
+    {
+      name: "George Eliadis",
+      position: "Founder & CEO",
+      bio: "George leads every implementation personally, working side-by-side with your team to ensure success from day one.",
+      image: "/generated/image-a-headshot-of-a-smiling-business-founder.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Talk dispatch with our CEO"
+  subtitle="See if Probook fits your workflow"
+  description="See what AI-powered dispatch can do for your team. Book a quick call with our founder—no hard sell, just answers and a real plan. Get launched in two days with hands-on support and instant results."
+  callsToAction={[
+    { href: '/contact', label: 'Book a call', variant: 'primary' },
+    { href: '/learn-more', label: 'Learn more', variant: 'secondary' }
+  ]}
 />

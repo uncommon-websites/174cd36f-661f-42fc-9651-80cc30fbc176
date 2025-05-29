@@ -52,107 +52,117 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Probook provides AI-powered dispatching for home services companies. Optimize every technician assignment, increase sales, and run your board with less stress—all fully integrated with ServiceTitan. Exceptional support is just a call away."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Harrison Mendez",
+			position: "HVAC dispatcher",
+			company: "AirWorks Heating & Cooling",
+			quote: "With Probook, I can assign every job in a fraction of the time. What used to take hours now takes minutes, and I have fewer mistakes on the board. Our whole team is running smoother.",
+			image: "/generated/image-a-male-hvac-dispatcher-in-a-bustling-off.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Margot Leclair",
+			position: "Owner",
+			company: "Blue Pipe Plumbing",
+			quote: "Before Probook, keeping track of revenue leaks was a constant worry. Now, jobs close faster and our monthly sales are up by 20%. It paid for itself in the first month.",
+			image: "/generated/image-a-confident-female-plumbing-company-owne.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Calvin Petrov",
+			position: "Lead technician",
+			company: "Bright Current Electrical",
+			quote: "Probook matches me to jobs where I do my best work—and I don’t get sent across town needlessly. Less time wasted, less risk of missed calls, and happier customers.",
+			image: "/generated/image-a-friendly-male-electrical-technician-st.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Smarter dispatching. Better results."
+	subtitle="AI-powered scheduling that grows sales, saves time, and keeps customers happy."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Advanced AI job-matching",
+			description: "Assigns the best technician to every job for more sales, higher flip rates, and better first-time fixes."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Rapid dispatcher efficiency",
+			description: "Copilot suggests assignments instantly, while Autopilot reshuffles the full board so one dispatcher can manage 20+ techs."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "ServiceTitan integration",
+			description: "Probook syncs in real time with ServiceTitan, keeping jobs and technician data always up to date."
+		},
+		{
+			title: "Responsive, human support",
+			description: "Get industry-leading help with a 3-minute median response and 100% satisfaction from real people."
+		},
+		{
+			title: "White-glove onboarding",
+			description: "Be fully live in just 2 days with onsite training and setup from our CEO."
+		},
+		{
+			title: "Proven by the best",
+			description: "Top home service companies—big and small—use Probook to run more efficient, profitable teams."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Fill your best techs’ day with high-revenue calls",
+			description: "Probook automatically matches your strongest closers to high-value jobs—so they spend less time on low-priority calls and more time generating revenue.",
+			image: "/generated/image-a-seasoned-hvac-technician-entering-a-su.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/high-value-techs",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Handle 25+ techs with one dispatcher",
+			description: "Autopilot dynamically reshuffles the board for you—so one dispatcher can manage more techs across more calls, without cracking under pressure.",
+			image: "/generated/image-a-busy-dispatcher-in-an-office-environme.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/manage-more-techs",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Keep customers happy—even when you're running behind",
+			description: "Probook sends real-time alerts and recommends reschedules for late or running-over jobs—before the customer has to call in wondering where their tech is.",
+			image: "/generated/image-a-dispatcher-in-a-modern-office-engaged-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/proactive-notifications",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Dispatch smarter. Close more jobs."
+  subtitle="Book a demo and see how much more efficient your team can be."
+  description="Probook uses AI to match the right technician to the right job—boosting sales, improving efficiency, and easing the load on dispatchers. Built by dispatchers, for dispatchers, we help you move faster, make stronger decisions, and turn your board into a sales engine. Launch in just 2 days—with in-person help from our CEO—and experience customer support that actually responds."
+  imageSrc="/generated/image-a-cheerful-home-service-dispatcher-in-a-.webp"
+  callsToAction={[
+    {
+      href: '/demo',
+      label: 'Book a demo',
+      variant: 'primary'
+    },
+    {
+      href: '/contact',
+      label: 'Talk to sales',
+      variant: 'secondary'
+    }
+  ]}
+/>

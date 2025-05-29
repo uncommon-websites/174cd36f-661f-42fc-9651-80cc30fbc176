@@ -121,34 +121,34 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Rosa Martinez",
+    position: "Customer Support Manager",
+    company: "Customer Success Team",
+    quote:
+      "What I love most is how everyone lifts each other up. We celebrate wins together and help each other learn from the tough days. It truly feels like a family here.",
+    image:
+      "/generated/image-a-latina-woman-customer-support-manager-.webp"
+  },
+  {
+    name: "David Kim",
+    position: "Junior Software Engineer",
+    company: "Engineering Team",
+    quote:
+      "From day one, my ideas were heard. The mentorship and growth opportunities are incredible—you get real projects and support to keep improving. I couldn't ask for a better place to start my career.",
+    image:
+      "/generated/image-a-korean-american-young-male-software-en.webp"
+  },
+  {
+    name: "Alexis Carter",
+    position: "Operations Specialist",
+    company: "Operations Team",
+    quote:
+      "I've always felt comfortable bringing my whole self to work. The inclusive culture means you don’t just fit in—you belong. Teamwork and respect are the norm here.",
+    image:
+      "/generated/image-a-black-nonbinary-operations-specialist-.webp"
+  }
+];
 
 	const processSteps = [
 		{
@@ -170,29 +170,35 @@
 	];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Customer obsessed",
+    description: "Everything starts and ends with real dispatcher problems. If it won’t make their day, we don’t build it."
+  },
+  {
+    icon: IconUsers,
+    title: "No egos, just outcomes",
+    description: "The best ideas win — from anyone, for anything. We care about what works, not who said it."
+  },
+  {
+    icon: IconGlobe,
+    title: "Learn fast",
+    description: "Every project is a feedback loop. If teams or customers have a better answer, we try it immediately — and course-correct, fast."
+  },
+  {
+    icon: IconBriefcase,
+    title: "Direct access",
+    description: "Our CEO works hand-in-hand with every team member and visits customers in person. No silos, lots of transparency."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="AI that helps real people"
+	subtitle="Join a team that builds together, grows fast, and transforms home services from the inside out."
+	imageSrc="/generated/image-a-cheerful-and-diverse-office-team-engag.webp"
 />
 
 <!-- Why Join Us Section -->
